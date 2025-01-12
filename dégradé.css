@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.title {
+    color: #333;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.gradient-container {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px auto;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.color-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.color-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.angle-control {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.css-code {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: 5px;
+    font-family: monospace;
+    color: #333;
+}

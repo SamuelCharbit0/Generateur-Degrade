@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Générateur de dégradés</title>
+    <link rel="stylesheet" href="dégradé.css">
+</head>
+<body>
+    <h1 class="title">Générateur de dégradés de couleurs</h1>
+    
+    <div class="gradient-container"></div>
+    
+    <div class="controls">
+        <div class="color-inputs">
+            <div class="color-group">
+                <label>Couleur 1</label>
+                <input type="color" id="color1" value="#ff6b6b">
+            </div>
+            <div class="color-group">
+                <label>Couleur 2</label>
+                <input type="color" id="color2" value="#4ecdc4">
+            </div>
+        </div>
+        
+        <div class="angle-control">
+            <label id="angle-label">Angle du dégradé : 45°</label>
+            <input type="range" id="angle" min="0" max="360" value="45">
+        </div>
+        
+        <div class="css-code" id="css-code">
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        </div>
+    </div>
+    <script src="dégradé.js"></script>
+</body>
+</html>
