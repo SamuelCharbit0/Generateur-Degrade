@@ -71,6 +71,9 @@ Ce projet permet de :
 
 Structure du projet
 /
+
 |-- dégradé.html
+
 |-- dégradé.css
+
 |-- dégradé.js
