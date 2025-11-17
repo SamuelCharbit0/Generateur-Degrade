@@ -1,4 +1,6 @@
-Contexte du projet
+Générateur de dégradés de couleurs
+
+Contexte du projet :
 
 Ce projet a été créé pour permettre de générer facilement des dégradés de couleurs en direct.
 
@@ -11,7 +13,7 @@ L’objectif était de mettre en place un petit outil où l’utilisateur peut :
 
 Cela permet de créer rapidement un dégradé utile pour des sites web ou des maquettes sans devoir écrire le code soi même.
 
-Fonctionnalités
+Fonctionnalités :
 
 - Choix de deux couleurs grâce à des champs de type color.
 - Sélection de l’angle du dégradé avec un slider entre 0 et 360°.
@@ -69,7 +71,8 @@ Ce projet permet de :
 - afficher du style de manière dynamique
 - proposer une interface simple et pratique
 
-Structure du projet
+Structure du projet :
+
 /
 
 |-- dégradé.html
